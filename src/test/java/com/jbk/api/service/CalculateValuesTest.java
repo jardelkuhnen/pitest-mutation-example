@@ -53,4 +53,15 @@ class CalculateValuesTest {
     public void shouldNotReturnisPar() {
         assertFalse(calculateValues.isPar(5));
     }
+
+
+    @Test
+    public void shouldReturnisImPar() {
+        assertTrue(calculateValues.isImpar(5));
+    }
+
+    @Test
+    public void shouldNotReturnisImPar() {
+        assertFalse(calculateValues.isImpar(10));
+    }
 }

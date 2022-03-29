@@ -25,4 +25,8 @@ public class CalculateValues {
         return value % 2 == 0;
     }
 
+    public boolean isImpar(int value) {
+        return value % 2 > 0;
+    }
+
 }
